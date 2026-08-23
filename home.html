@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Student Performance Predictor - Home</title>
+  <style>
+    body {
+      margin: 0; padding: 0; font-family: 'Poppins', sans-serif;
+      background: url('https://img.magnific.com/premium-photo/university-campuses-education-learning-with-nice-background_1304645-20530.jpg') no-repeat center center fixed;
+      background-size: cover; height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: #fff; text-align: center;
+    }
+    nav {
+      width: 100%; background: rgba(0,0,0,0.6);
+      display: flex; justify-content: center; padding: 15px 0;
+      position: fixed; top: 0; left: 0;
+    }
+    nav a {
+      color: #fff; text-decoration: none; margin: 0 20px;
+      font-weight: bold; font-size: 16px; transition: color 0.3s ease;
+    }
+    nav a:hover { color: #FFD700; }
+
+    .hero {
+      background: rgba(0,0,0,0.5); padding: 40px; border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      animation: fadeIn 2s ease-in;
+    }
+    h1 {
+      font-size: 36px; font-weight: bold; margin-bottom: 20px;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    }
+    p {
+      font-size: 18px; margin-bottom: 30px;
+    }
+    button {
+      padding: 12px 25px;
+      background: linear-gradient(135deg, #0078D7, #005fa3);
+      color: white; border: none; border-radius: 10px; cursor: pointer;
+      font-size: 16px; font-weight: bold;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+    button:hover { transform: scale(1.05); box-shadow: 0 6px 15px rgba(0,0,0,0.4); }
+
+    @keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+  </style>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="index.html">Login</a>
+    <a href="index.html" onclick="toggleRegister()">Register</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>AI Student Performance Predictor</h1>
+    <p>Welcome to the future of education — predict, analyze, and improve student outcomes with AI-powered insights.</p>
+    <button onclick="window.location.href='index.html'">Get Started</button>
+  </div>
+
+  <script>
+    // Optional: if you want the Register link to directly show the register form
+    function toggleRegister() {
+      localStorage.setItem("showRegister", "true");
+    }
+  </script>
+</body>
+</html>
