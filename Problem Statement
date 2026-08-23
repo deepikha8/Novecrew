@@ -1,0 +1,24 @@
+Problem Statement: AI Student Performance Predictor
+
+Overview
+
+Student academic performance is influenced by multiple factors such as marks, attendance, assignment scores, previous academic results, study habits, and other relevant academic indicators. However, identifying students who may be at academic risk at an early stage can be difficult using traditional evaluation methods.
+
+The AI Student Performance Predictor aims to develop an AI/ML-based system that analyzes student academic data and predicts their expected performance and academic risk level. The system will use machine learning techniques to identify patterns in student data and classify students into appropriate performance or risk categories.
+
+In addition to prediction, the system will provide personalized and data-driven recommendations to help students improve their academic performance. These recommendations may include improving attendance, focusing on weaker subjects, increasing study time, completing assignments regularly, or following a suitable study plan.
+
+The proposed system will provide students and educators with an intelligent tool for early identification of academic difficulties, performance monitoring, and personalized improvement guidance.
+
+Key Objectives
+
+- Collect and analyze relevant student academic information.
+- Predict the student's expected academic performance using machine learning.
+- Identify the student's academic risk level.
+- Provide personalized recommendations based on the prediction results.
+- Help identify students who may need academic support at an early stage.
+- Present prediction results through a simple and user-friendly interface.
+
+Expected Outcome
+
+The system will provide an AI-based prediction of student performance along with an academic risk level and personalized suggestions for improvement, helping students make informed decisions about their academic progress and supporting educators in identifying students who may require additional guidance.
